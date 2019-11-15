@@ -1,0 +1,26 @@
+﻿@{
+
+    ViewData["Title"] = "Login";
+
+}
+
+<h1>Login</h1>
+
+<div class="text-center">
+
+    <form asp-action="Login" asp-controller="Person">
+
+        <input type="text" name="NickName" placeholder="Nickname" required="required" id="NickName" />
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" } )
+
+        <input type="submit" value="Login" />
+
+    </form>
+
+    @Html.ActionLink("Create new profile", "Create", "Person")
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
