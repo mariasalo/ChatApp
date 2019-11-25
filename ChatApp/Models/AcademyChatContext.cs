@@ -22,7 +22,7 @@ namespace ChatApp.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=tcp:academycsharp.cshbdzdmyfsv.eu-west-1.rds.amazonaws.com,1433;Initial Catalog=AcademyChat;Persist Security Info=False;User ID=konsultti;Password=KonsultinPwd123!;TrustServerCertificate=False;Connection Timeout=30;MultipleActiveResultSets=True");
+                optionsBuilder.UseSqlServer("<LINK HERE>");
             }
         }
 
