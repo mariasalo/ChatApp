@@ -1,3 +1,5 @@
 # ChatApp
+
 MVC web application for instant messaging.
-Made as group work in Academy. Team: Maria Salo, Ville Lampi & Michael Muraya.
+Used technologies: C#, ASP.NET Core MVC, SQL database
+Made as a group work in AW Academy. Team: Maria Salo, Ville Lampi & Michael Muraya.
